@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patient Account Center - Support</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Account Support</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-8 medium-8 columns">
+
+        <h5>What do you need help with?</h5>
+	        <dl class="accordion" data-accordion>
+			  <dd class="accordion-navigation">
+			    <a href="#panel1b">I'm having trouble signing into my account.</a>
+			    <div id="panel1b" class="content">
+			      <a href="#" class="button">Get help with your username or password.</a>
+			    </div>
+			  </dd>
+			  <dd class="accordion-navigation">
+			    <a href="#panel2b">I need help with information in my health record.</a>
+			    <div id="panel2b" class="content">
+					<form>
+						  <div class="row">
+						    <div class="large-12 columns">
+						      <label>What is your name?</label>
+						      <input type="text" placeholder="Enter your name" />
+						    </div>
+						  </div>
+					  <div class="row">
+					  	<div class="large-6 columns">
+					  		<label>What is your date of birth?</label>
+					  		<input type="text" placeholder="mm/dd/yyyy" />
+					  	</div>
+					  	<div class="large-6 columns">
+					  		<label>What is your phone number? (optional)</label>
+					  		<input type="text" placeholder="Phone Number" />
+					  	</div>
+					  </div>
+					  <div class="row">
+					  	<div class="large-12 columns">
+					  		<label>What is your email address?</label>
+					  		<input type="text" placeholder="Email Address" />
+					  	</div>
+					  </div>
+						<div class="row">
+						    <div class="large-12 columns">
+						      <label>What is the problem you're having?</label>
+						      <textarea placeholder="Please describe your problem"></textarea>
+						    </div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns">
+								<label>Does this problem relate to a specifc date of service?</label>
+								<input type="radio" name="yes" value="Yes" id="yes">
+								<label for="yes">Yes</label>
+								<input type="radio" name="no" value="No" id="no">
+								<label for="no">No</label>
+							</div>
+					  	</div>
+						<div class="row">
+						    <div class="large-12 columns">
+						      <label>When did service take place?</label>
+						      <input type="text" placeholder="Please enter a date or date range" />
+						      <span class="form-hint">Even if you aren't sure, your best guess will help us find your records.</span>
+						    </div>
+						</div>
+					  <div class="row">
+					  	<div class="large-12 columns">
+					  		<a href="#" class="button">Send message</a>
+					  	</div>
+					  </div>
+					</form>
+			    </div>
+			  </dd>
+			  <dd class="accordion-navigation">
+			    <a href="#panel3b">I need help with something else.</a>
+			    <div id="panel3b" class="content">
+					<p>Let us know what’s going on and we’ll get back to you as soon as possible.</p>
+			      	<form>
+					  <div class="row">
+					    <div class="large-12 columns">
+					      <label>What is your name?</label>
+					      <input type="text" placeholder="Enter your name" />
+					    </div>
+					  </div>
+					  <div class="row">
+					  	<div class="large-12 columns">
+					  		<label>Email Address</label>
+					  		<input type="text" placeholder="Email Address" />
+					  	</div>
+					  </div>
+					  <div class="row">
+					  	<div class="large-12 columns">
+					  		<label>Date of Birth</label>
+					  		<input type="text" placeholder="mm/dd/yyyy" />
+					  	</div>
+					  </div>
+					  <div class="row">
+					    <div class="large-12 columns">
+					      <label>Problem Description</label>
+					      <textarea placeholder="Please describe your problem"></textarea>
+					    </div>
+					  </div>
+					  <div class="row">
+					  	<div class="large-12 columns">
+					  		<a href="#" class="button">Send message</a>
+					  	</div>
+					  </div>
+					</form>
+			    </div>
+			  </dd>
+			</dl>
+      </div>
+
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

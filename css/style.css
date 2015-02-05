@@ -1,0 +1,37 @@
+
+.accordion .accordion-navigation {
+  margin-bottom: 1em !important;
+  position: relative;
+}
+.accordion .accordion-navigation:after {
+  content: ">";
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.accordion-navigation.active:after {
+  content: "v";
+}
+.accordion .accordion-navigation > a,
+.accordion dd > a {
+  background: #eee;
+}
+.accordion .accordion-navigation > .content.active,
+.accordion dd > .content.active,
+.accordion .accordion-navigation.active > a,
+.accordion dd.active > a {
+  background: #ccc;
+}
+
+.form-hint {
+  font-size: .8em;
+  font-style: italic;
+}
+
+form > .row {
+  margin-bottom: 1.5em !important;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+  margin: 0;
+}
